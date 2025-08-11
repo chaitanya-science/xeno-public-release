@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  xeno-public-release:
+    build:
+      context: .
+      target: production
+    container_name: xeno-public-release
+    restart: unless-stopped
+    
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      
+    volumes:
+      # Configuration file (create from config.template.json)
+      - ./config.json:/usr/src/app/config.json:ro
+      
+      # Data persistence
+      - ./data:/usr/src/app/data
+      
+      # Audio device access
+      - /dev/snd:/dev/snd
+      
+    # Required for audio device access
+    devices:
+      - /dev/snd
+      
+    ports:
+      - "${PORT:-3000}:3000"
+      
+    # Health check
+    healthcheck:
+      test: ["CMD", "node", "-e", "console.log('Health check')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+      
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '1.0'
+        reservations:
+          memory: 256M
+          cpus: '0.5'
+          
+    # Logging configuration
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+        
+    # Network configuration
+    networks:
+      - xeno-network
+
+networks:
+  xeno-network:
+    driver: bridge

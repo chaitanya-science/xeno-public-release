@@ -1,0 +1,48 @@
+{"timestamp":"2025-08-10T07:33:00.321Z","level":"INFO","component":"System","message":"Logger initialized successfully"}
+{"timestamp":"2025-08-10T07:33:00.321Z","level":"INFO","component":"System","message":"AI Wellness Companion starting up..."}
+{"timestamp":"2025-08-10T07:33:00.322Z","level":"INFO","component":"System","message":"Initializing optimized system components..."}
+{"timestamp":"2025-08-10T07:33:00.322Z","level":"INFO","component":"System","message":"Crisis detection services initialized (optimized)"}
+{"timestamp":"2025-08-10T07:33:00.328Z","level":"INFO","component":"System","message":"Conversation services initialized (optimized pipeline)"}
+{"timestamp":"2025-08-10T07:33:00.328Z","level":"INFO","component":"System","message":"Audio services initialized (continuous listening mode)"}
+{"timestamp":"2025-08-10T07:33:00.328Z","level":"INFO","component":"System","message":"Monitoring services initialized"}
+{"timestamp":"2025-08-10T07:33:00.322Z","level":"INFO","component":"System","message":"Memory services initialized (optimized with pooling)"}
+{"timestamp":"2025-08-10T07:33:00.328Z","level":"INFO","component":"System","message":"All components initialized successfully","metadata":{"initializationTime":6,"targetTime":30000}}
+{"timestamp":"2025-08-10T07:33:00.328Z","level":"INFO","component":"System","message":"Starting optimized services..."}
+{"timestamp":"2025-08-10T07:33:00.373Z","level":"INFO","component":"System","message":"Conversation services started (parallel processing enabled)"}
+{"timestamp":"2025-08-10T07:33:00.373Z","level":"INFO","component":"System","message":"Monitoring services started"}
+{"timestamp":"2025-08-10T07:34:01.976Z","level":"INFO","component":"System","message":"Logger initialized successfully"}
+{"timestamp":"2025-08-10T07:34:01.977Z","level":"INFO","component":"System","message":"AI Wellness Companion starting up..."}
+{"timestamp":"2025-08-10T07:34:01.977Z","level":"INFO","component":"System","message":"Initializing optimized system components..."}
+{"timestamp":"2025-08-10T07:34:01.985Z","level":"INFO","component":"System","message":"Audio services initialized (continuous listening mode)"}
+{"timestamp":"2025-08-10T07:34:01.985Z","level":"INFO","component":"System","message":"Conversation services initialized (optimized pipeline)"}
+{"timestamp":"2025-08-10T07:34:01.985Z","level":"INFO","component":"System","message":"Monitoring services initialized"}
+{"timestamp":"2025-08-10T07:34:01.985Z","level":"INFO","component":"System","message":"All components initialized successfully","metadata":{"initializationTime":8,"targetTime":30000}}
+{"timestamp":"2025-08-10T07:34:01.977Z","level":"INFO","component":"System","message":"Memory services initialized (optimized with pooling)"}
+{"timestamp":"2025-08-10T07:34:01.985Z","level":"INFO","component":"System","message":"Starting optimized services..."}
+{"timestamp":"2025-08-10T07:34:02.026Z","level":"INFO","component":"System","message":"Conversation services started (parallel processing enabled)"}
+{"timestamp":"2025-08-10T07:34:02.026Z","level":"INFO","component":"System","message":"Monitoring services started"}
+{"timestamp":"2025-08-10T07:34:01.978Z","level":"INFO","component":"System","message":"Crisis detection services initialized (optimized)"}
+{"timestamp":"2025-08-10T07:35:51.588Z","level":"INFO","component":"System","message":"Logger initialized successfully"}
+{"timestamp":"2025-08-10T07:35:51.589Z","level":"INFO","component":"System","message":"AI Wellness Companion starting up..."}
+{"timestamp":"2025-08-10T07:35:51.589Z","level":"INFO","component":"System","message":"Crisis detection services initialized (optimized)"}
+{"timestamp":"2025-08-10T07:35:51.595Z","level":"INFO","component":"System","message":"Audio services initialized (continuous listening mode)"}
+{"timestamp":"2025-08-10T07:35:51.589Z","level":"INFO","component":"System","message":"Memory services initialized (optimized with pooling)"}
+{"timestamp":"2025-08-10T07:35:51.595Z","level":"INFO","component":"System","message":"Monitoring services initialized"}
+{"timestamp":"2025-08-10T07:35:51.589Z","level":"INFO","component":"System","message":"Initializing optimized system components..."}
+{"timestamp":"2025-08-10T07:35:51.595Z","level":"INFO","component":"System","message":"All components initialized successfully","metadata":{"initializationTime":6,"targetTime":30000}}
+{"timestamp":"2025-08-10T07:35:51.595Z","level":"INFO","component":"System","message":"Conversation services initialized (optimized pipeline)"}
+{"timestamp":"2025-08-10T07:35:51.596Z","level":"INFO","component":"System","message":"Starting optimized services..."}
+{"timestamp":"2025-08-10T07:35:51.637Z","level":"INFO","component":"System","message":"Conversation services started (parallel processing enabled)"}
+{"timestamp":"2025-08-10T07:35:51.637Z","level":"INFO","component":"System","message":"Monitoring services started"}
+{"timestamp":"2025-08-10T07:36:33.150Z","level":"INFO","component":"System","message":"Logger initialized successfully"}
+{"timestamp":"2025-08-10T07:36:33.150Z","level":"INFO","component":"System","message":"AI Wellness Companion starting up..."}
+{"timestamp":"2025-08-10T07:36:33.151Z","level":"INFO","component":"System","message":"Memory services initialized (optimized with pooling)"}
+{"timestamp":"2025-08-10T07:36:33.151Z","level":"INFO","component":"System","message":"Initializing optimized system components..."}
+{"timestamp":"2025-08-10T07:36:33.151Z","level":"INFO","component":"System","message":"Crisis detection services initialized (optimized)"}
+{"timestamp":"2025-08-10T07:36:33.154Z","level":"INFO","component":"System","message":"Audio services initialized (continuous listening mode)"}
+{"timestamp":"2025-08-10T07:36:33.154Z","level":"INFO","component":"System","message":"Conversation services initialized (optimized pipeline)"}
+{"timestamp":"2025-08-10T07:36:33.154Z","level":"INFO","component":"System","message":"Monitoring services initialized"}
+{"timestamp":"2025-08-10T07:36:33.154Z","level":"INFO","component":"System","message":"All components initialized successfully","metadata":{"initializationTime":3,"targetTime":30000}}
+{"timestamp":"2025-08-10T07:36:33.155Z","level":"INFO","component":"System","message":"Starting optimized services..."}
+{"timestamp":"2025-08-10T07:36:33.198Z","level":"INFO","component":"System","message":"Conversation services started (parallel processing enabled)"}
+{"timestamp":"2025-08-10T07:36:33.198Z","level":"INFO","component":"System","message":"Monitoring services started"}

@@ -1,0 +1,84 @@
+{
+  "audio": {
+    "sampleRate": 16000,
+    "channels": 1,
+    "bitDepth": 16,
+    "bufferSize": 512,
+    "noiseReductionEnabled": false,
+    "echoCancellationEnabled": false,
+    "autoGainControl": true,
+    "inputDevice": "default",
+    "outputDevice": "default",
+    "inputVolume": 0.8,
+    "outputVolume": 0.7,
+    "wakeWordEnabled": false,
+    "alwaysListening": true,
+    "voiceActivationEnabled": true,
+    "speechToText": {
+      "silenceTimeout": 1500,
+      "maxRecordingTime": 15000,
+      "energyThreshold": 0.05,
+      "pauseThreshold": 0.8,
+      "autoStart": true,
+      "continuousListening": true
+    }
+  },
+  "ai": {
+    "openai": {
+      "apiKey": "YOUR_OPENAI_API_KEY_HERE",
+      "model": "gpt-4o-mini",
+      "maxTokens": 150,
+      "temperature": 0.7,
+      "baseUrl": "https://api.openai.com/v1",
+      "timeout": 15000,
+      "empathyLevel": "very_high",
+      "emotionalAdaptation": true,
+      "systemPrompt": "You are Xeno, a compassionate AI wellness companion. Respond warmly and briefly to help users with mental health and wellness. Keep responses under 2 sentences unless asked for detail."
+    },
+    "speechServices": {
+      "provider": "google",
+      "projectId": "YOUR_GOOGLE_PROJECT_ID",
+      "region": "us-central1",
+      "language": "en-US",
+      "voice": "en-US-Neural2-F",
+      "speed": 1.0,
+      "pitch": 0.0,
+      "volumeGainDb": 0.0,
+      "serviceAccount": {},
+      "outputFormat": "mp3",
+      "audioEncoding": "MP3",
+      "sampleRate": 24000,
+      "serverSide": true
+    }
+  },
+  "privacy": {
+    "dataRetentionDays": 7,
+    "autoDeleteAudio": true,
+    "encryptionEnabled": true,
+    "allowMemoryStorage": false,
+    "allowConversationHistory": false,
+    "localProcessingOnly": true,
+    "anonymizeData": true
+  },
+  "system": {
+    "responseTimeoutMs": 8000,
+    "maxConversationLength": 50,
+    "healthCheckIntervalMs": 30000,
+    "autoUpdateEnabled": false,
+    "logLevel": "debug",
+    "performanceMode": "balanced",
+    "lowLatencyMode": true,
+    "adaptiveThresholds": true,
+    "fallbackMode": "offline",
+    "interactionMode": "continuous",
+    "wakeWordRequired": false,
+    "voiceActivated": true
+  },
+  "hardware": {
+    "platform": "raspberry-pi",
+    "optimizeForPi": true,
+    "cpuThrottling": false,
+    "memoryLimit": "512MB",
+    "audioLatency": "low"
+  }
+}
